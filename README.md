@@ -1,7 +1,3 @@
-Here’s a cleaner and more professional version of your README section:
-
----
-
 ### 📁 Data Note
 
 > ⚠️ The original `all-the-news-2-1-LARGE.csv` dataset is too large to upload to GitHub. A trimmed version was created locally for the final project, it is called `all-the-news-2-1-SMALL.csv`.
@@ -17,15 +13,15 @@ Here’s a cleaner and more professional version of your README section:
 #### 📊 Trimmed Dataset Breakdown:
 | Publication         | Article Count |
 |---------------------|---------------|
-| The New York Times  | 75,000        |
-| The Hill            | 50,000        |
-| People              | 35,000        |
-| CNN                 | 30,000        |
-| Vice                | 25,000        |
-| Fox News            | 20,000        |
-| Buzzfeed News       | 20,000        |
-| Politico            | 20,000        |
-| Economist           | 20,000        |
-| Washington Post     | 20,000        |
+| The New York Times  | 15,000        |
+| The Hill            | 15,000        |
+| People              | 15,000        |
+| CNN                 | 15,000        |
+| Vice                | 15,000        |
+| Fox News            | 15,000        |
+| Buzzfeed News       | 15,000        |
+| Politico            | 15,000        |
+| Economist           | 15,000        |
+| Washington Post     | 15,000        |
 
 > ⚠️ Even the trimmed version exceeds GitHub’s recommended size limits for versioned files. We opted not to use Git LFS—please download the data from the provided link.
