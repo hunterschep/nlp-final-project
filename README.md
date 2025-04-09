@@ -1,4 +1,4 @@
-### 📁 Data Note
+### Data Note
 
 > ⚠️ The original `all-the-news-2-1-LARGE.csv` dataset is too large to upload to GitHub. A trimmed version was created locally for the final project, it is called `all-the-news-2-1-SMALL.csv`.
 
@@ -10,7 +10,7 @@
   pip install polars
   ```
 
-#### 📊 Trimmed Dataset Breakdown:
+#### Trimmed Dataset Breakdown:
 | Publication         | Article Count |
 |---------------------|---------------|
 | The New York Times  | 15,000        |
@@ -34,7 +34,8 @@
   - Start with 2.1M articles from the All the News 2.0 dataset.
   - Select 10 sources with the highest article volume and some stylistic diversity (The New York Times, Fox News, CNN, Reuters, The Economist, People, Buzzfeed News, The Hill, Vice, Politico).
   - Remove null or empty articles, and articles in languages other than English (using language detection on titles).
-  - Remove the longest 5% and shortest 5% of articles based on character length to filter out scraping errors and transcription-heavy content.
+  - Remove the longest 10% and shortest 10% of articles based on character length to filter out scraping errors and transcription-heavy content.
+  - Use some more advanced methods to remove "cheating" words like direct mentions to publications. See `prep_data.ipynb`
   
 - **Final dataset**:
   - 10 sources, 15,000 articles each => **150,000 total articles**.
