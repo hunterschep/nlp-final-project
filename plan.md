@@ -23,22 +23,24 @@
   - Serves as a naive lower bound.
 
 ---
-
+## A Rule Based Model
+- **Rule based off of style guide**: 
+  - Try and predict purely off of publications stylistic differences 
+  - Example: the oxford comma 
+  
 ## Classic ML Models
 
 ### Pipeline:
 
-#### TF-IDF 
-- **Data** → **TF-IDF Vectorizer (unigrams)** → **Naive Bayes**
-- **Data** → **TF-IDF Vectorizer (unigrams + bigrams)** → **Logistic Regression**
-- **Data** → **TF-IDF Vectorizer (unigrams + bigrams)** → **SVM**
+#### BoW (Bag of Words)
+- **Data** → **BoW** → **Naive Bayes**
+- **Data** → **BoW** → **SVM**
 
 #### Word2Vec 
 - **Data** → **Word2Vec Vectorizer (unigrams + bigrams)** → **Logistic Regression**
 - **Data** → **Word2Vec Vectorizer (unigrams + bigrams)** → **SVM**
 
 ### Notes:
-- Stopwords removed only for TF-IDF models.
 - All models evaluated on the same test set.
 
 ### Evaluation:
