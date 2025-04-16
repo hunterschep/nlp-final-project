@@ -9,8 +9,8 @@ if ! command -v gdown &> /dev/null; then
 fi
 
 # The Google Drive file ID for all-the-news-2-1-SMALL-CLEANED.csv
-# This ID was extracted from the shared folder link
-FILE_ID="1QoqGS6XE8BONzPvUQCVuGjaBdt_GaXlz"
+# This ID https://drive.google.com/file/d/1t6pih74z_iO_Y5tphenURjGr2lUiLD6E/view?usp=drive_link
+FILE_ID="1t6pih74z_iO_Y5tphenURjGr2lUiLD6E/view?usp=drive_link"
 # Save to the current directory (data/)
 OUTPUT_FILE="$(dirname "$0")/all-the-news-2-1-SMALL-CLEANED.csv"
 
