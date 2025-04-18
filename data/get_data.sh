@@ -8,7 +8,7 @@ if ! command -v gdown &> /dev/null; then
     pip install gdown
 fi
 
-FILE_ID="1t6pih74z_iO_Y5tphenURjGr2lUiLD6E"
+FILE_ID="1pASMRuglNqBMBa6iDC8elIfs8vAg2ndg"
 OUTPUT_FILE="$(dirname "$0")/all-the-news-2-1-SMALL-CLEANED.csv"
 
 echo "Downloading all-the-news-2-1-SMALL-CLEANED.csv to data directory..."
