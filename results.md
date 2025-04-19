@@ -1,4 +1,3 @@
-```markdown
 # 🏆 Results
 
 This document captures **all** experimental outcomes in one place.  
@@ -199,4 +198,3 @@ Every model‑variant gets its own subsection containing:
 1. **Run** an experiment.  
 2. **Replace** the `—` placeholders with real numbers (keep three decimals).  
 3. **Add** notes under the table if hyper‑parameters or tricks are critical.  
-```
