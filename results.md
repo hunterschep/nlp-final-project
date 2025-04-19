@@ -128,9 +128,9 @@ Every model‑variant gets its own subsection containing:
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
 | BuzzFeed News | — | 0.50 | 0.55 | 0.53 |
-| Fox News | - | 0.63 | 0.54 | 0.58 |
+| Fox News | — | 0.63 | 0.54 | 0.58 |
 | CNN | — | 0.64 | 0.48 | 0.55 |
-| Reuters | - | 0.79 | 0.89 | 0.84 |
+| Reuters | — | 0.79 | 0.89 | 0.84 |
 | Vice | — | 0.83 | 0.75 | 0.79 |
 | The New York Times | — | 0.69 | 0.70 | 0.70 |
 | Politico | — | 0.61 | 0.68 | 0.64 |
