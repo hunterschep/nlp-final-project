@@ -127,17 +127,17 @@ Every model‑variant gets its own subsection containing:
 ## 2.2 Feed‑Forward Neural Network (FFNN)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | — | — | — |
-| Fox News | — | — | — | — |
-| CNN | — | — | — | — |
-| Reuters | — | — | — | — |
-| Vice | — | — | — | — |
-| The New York Times | — | — | — | — |
-| Politico | — | — | — | — |
-| The Hill | — | — | — | — |
-| The Economist | — | — | — | — |
-| People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| BuzzFeed News | — | 0.50 | 0.55 | 0.53 |
+| Fox News | - | 0.63 | 0.54 | 0.58 |
+| CNN | — | 0.64 | 0.48 | 0.55 |
+| Reuters | - | 0.79 | 0.89 | 0.84 |
+| Vice | — | 0.83 | 0.75 | 0.79 |
+| The New York Times | — | 0.69 | 0.70 | 0.70 |
+| Politico | — | 0.61 | 0.68 | 0.64 |
+| The Hill | — | 0.84 | 0.79 | 0.81 |
+| The Economist | — | 0.90 | 0.95 | 0.93 |
+| People | — | 0.74 | 0.84 | 0.79 |
+| **Top‑Line** | 0.72 | 0.72 | 0.72 | 0.71 |
 
 ---
 
