@@ -24,7 +24,9 @@ This project explores the classification of news articles by their source public
 
 ## Project Documentation
 - [Project Plan](./plan.md) - Outlines our approach, experiments, and evaluation methods
-- [Literature Review](./litreview.md) - Review of related work in the field
+- [Literature Review](./litreview.md) - Informal review of related work in the field and how it could be applicable our project
+- [Results](./results.md) - Some nicely formatted markdown tables to hold our results
+
 
 ### Data Note
 
@@ -40,18 +42,18 @@ This project explores the classification of news articles by their source public
   ```
 
 #### Trimmed Dataset Breakdown:
-| Publication         | Article Count |
-|---------------------|---------------|
-| The New York Times  | 15,000        |
-| The Hill            | 15,000        |
-| People              | 15,000        |
-| CNN                 | 15,000        |
-| Vice                | 15,000        |
-| Fox News            | 15,000        |
-| Buzzfeed News       | 15,000        |
-| Politico            | 15,000        |
-| Economist           | 15,000        |
-| Washington Post     | 15,000        |
+| Publication         | Train Count   | Test Count    | 
+|---------------------|---------------|---------------|
+| The New York Times  | 9,000         | 1,000         |
+| The Hill            | 9,000         | 1,000         |
+| People              | 9,000         | 1,000         |
+| CNN                 | 9,000         | 1,000         |
+| Vice                | 9,000         | 1,000         |
+| Fox News            | 9,000         | 1,000         |
+| Buzzfeed News       | 9,000         | 1,000         |
+| Politico            | 9,000         | 1,000         |
+| Economist           | 9,000         | 1,000         |
+| Reuters             | 9,000         |  1,000        |
 
 > ⚠️ Even the trimmed version exceeds GitHub's recommended size limits for versioned files. We opted not to use Git LFS—please download the data from the provided link.
 
