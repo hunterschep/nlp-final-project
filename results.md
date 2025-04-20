@@ -81,19 +81,20 @@ Every model‑variant gets its own subsection containing:
 ## 1.2 Word2Vec Averages
 
 ### 1.2.1 Logistic Regression
-| Publication | Accuracy | Precision | Recall | F1 |
-|-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | — | — | — |
-| Fox News | — | — | — | — |
-| CNN | — | — | — | — |
-| Reuters | — | — | — | — |
-| Vice | — | — | — | — |
-| The New York Times | — | — | — | — |
-| Politico | — | — | — | — |
-| The Hill | — | — | — | — |
-| The Economist | — | — | — | — |
-| People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| Publication           | Accuracy | Precision | Recall | F1   |
+|-----------------------|----------|-----------|--------|------|
+| Buzzfeed News         | 0.54     | 0.57      | 0.54   | 0.55 |
+| Fox News              | 0.70     | 0.78      | 0.70   | 0.73 |
+| CNN                   | 0.71     | 0.65      | 0.71   | 0.68 |
+| Reuters               | 0.84     | 0.85      | 0.84   | 0.85 |
+| Vice                  | 0.79     | 0.78      | 0.79   | 0.79 |
+| The New York Times    | 0.68     | 0.77      | 0.68   | 0.72 |
+| Politico              | 0.72     | 0.64      | 0.72   | 0.68 |
+| The Hill              | 0.75     | 0.85      | 0.75   | 0.79 |
+| Economist             | 0.93     | 0.84      | 0.93   | 0.89 |
+| People                | 0.89     | 0.81      | 0.89   | 0.85 |
+| **Top-Line**          | 0.75     | 0.76      | 0.75   | 0.75 |
+
 
 ### 1.2.2 SVM (RBF Kernel + W2V)
 
