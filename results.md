@@ -115,7 +115,8 @@ Every model‑variant gets its own subsection containing:
 
 ---
 
-# 2  Neural Methods 🧠
+# 2  Neural Methods 🧠
+
 ## 2.1 1‑D Convolutional Neural Network (CNN‑Text)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
@@ -148,7 +149,7 @@ Every model‑variant gets its own subsection containing:
 
 ---
 
-# 3  Rule‑Based Approach ✍️ (Editorial Style Guide Rules)
+# 3  Rule‑Based Approach ✍️ (Editorial Style Guide Rules)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
 | BuzzFeed News | — | — | — | — |
@@ -165,7 +166,7 @@ Every model‑variant gets its own subsection containing:
 
 ---
 
-# 4  Large Language Model (LLM) ⚡
+# 4  Large Language Model (LLM) ⚡
 ## 4.1 Mistral‑7B (0‑shot, system prompt = *“Predict publisher”*)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
@@ -183,7 +184,7 @@ Every model‑variant gets its own subsection containing:
 
 ---
 
-# 5  Transformer‑Based Encoders 🦾
+# 5  Transformer‑Based Encoders 🦾
 ## 5.1 BERT (Base, uncased) + [CLS] Logistic Head
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
