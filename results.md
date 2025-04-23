@@ -133,36 +133,36 @@ Every model‑variant gets its own subsection containing:
 | **Top‑Line** | — | — | — | — |
 
 ## 2.2 Feed‑Forward Neural Network (FFNN)
-| Publication | Accuracy | Precision | Recall | F1 |
-|-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | 0.50 | 0.55 | 0.53 |
-| Fox News | — | 0.63 | 0.54 | 0.58 |
-| CNN | — | 0.64 | 0.48 | 0.55 |
-| Reuters | — | 0.79 | 0.89 | 0.84 |
-| Vice | — | 0.83 | 0.75 | 0.79 |
-| The New York Times | — | 0.69 | 0.70 | 0.70 |
-| Politico | — | 0.61 | 0.68 | 0.64 |
-| The Hill | — | 0.84 | 0.79 | 0.81 |
-| The Economist | — | 0.90 | 0.95 | 0.93 |
-| People | — | 0.74 | 0.84 | 0.79 |
-| **Top‑Line** | 0.72 | 0.72 | 0.72 | 0.71 |
+| Publication		| Accuracy | Precision | Recall | F1 |
+|-------------------|----------|-----------|--------|----|
+| BuzzFeed News		| — | 0.50 | 0.55 | 0.53 |
+| Fox News 			| — | 0.63 | 0.54 | 0.58 |
+| CNN 				| — | 0.64 | 0.48 | 0.55 |
+| Reuters			| — | 0.79 | 0.89 | 0.84 |
+| Vice				| — | 0.83 | 0.75 | 0.79 |
+| The New York Times| — | 0.69 | 0.70 | 0.70 |
+| Politico 			| — | 0.61 | 0.68 | 0.64 |
+| The Hill 			| — | 0.84 | 0.79 | 0.81 |
+| The Economist		| — | 0.90 | 0.95 | 0.93 |
+| People			| — | 0.74 | 0.84 | 0.79 |
+| **Top‑Line** 		| 0.72 | 0.72 | 0.72 | 0.71 |
 
 ---
 
 # 3  Rule‑Based Approach ✍️ (Editorial Style Guide Rules)
-| Publication | Accuracy | Precision | Recall | F1 |
-|-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | — | — | — |
-| Fox News | — | — | — | — |
-| CNN | — | — | — | — |
-| Reuters | — | — | — | — |
-| Vice | — | — | — | — |
-| The New York Times | — | — | — | — |
-| Politico | — | — | — | — |
-| The Hill | — | — | — | — |
-| The Economist | — | — | — | — |
-| People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| Publication 		| Accuracy | Precision | Recall | F1  |
+|-------------------|----------|-----------|--------|-----|
+| BuzzFeed News 	| — 	   | 0.00	   | 0 		| 0   |
+| Fox News 			| — 	   | 0.00	   | 0		| 0   |
+| CNN 				| — 	   | 0.00	   | 0 		| 0   |
+| Reuters 			| — 	   | 0.00	   | 0 		| 0   |
+| Vice 				| — 	   | 0.30	   | 0.37 	| 0.33|
+| The New York Times| -		   | 0.63	   | 0.59 	| 0.61|
+| Politico 			| — 	   | 0.31	   | 0.46	| 0.37|
+| The Hill			| — 	   | 0.35 	   | 0.56 	| 0.43|
+| The Economist 	| — 	   | 0.47 	   | 0.17	| 0.25|
+| People			| — 	   | 0.16	   | 0.71 	| 0.26|
+| **Top‑Line** 		| 0.29 	   | 0.22 	   | 0.29 	| 0.23|
 
 ---
 
