@@ -16,8 +16,7 @@ This project explores the classification of news articles by their source public
 │   ├── baseline/               # Random baseline experiments
 │   ├── classic/                # Traditional ML approaches (TF-IDF, Word2Vec)
 │   ├── neural/                 # Neural network models
-│   ├── transformer/            # BERT/DistilBERT implementations
-│   └── llm/                    # Large Language Model experiments
+│   ├── transformer/            # BERT/DistilBERT implementations                    
 ├── data/
 │   ├── get_data.sh             # A script to download `all-the-news-2-1-SMALL-CLEANED.csv`
 ```
