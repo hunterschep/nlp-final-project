@@ -1,4 +1,5 @@
-#!/bin/bash
+# A simple script to download the dataset from Google Drive
+# and save it to the data directory
 
 echo "Downloading the dataset..."
 

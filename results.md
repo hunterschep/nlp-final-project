@@ -120,17 +120,17 @@ Every model‑variant gets its own subsection containing:
 ## 2.1 1‑D Convolutional Neural Network (CNN‑Text)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | — | — | — |
-| Fox News | — | — | — | — |
-| CNN | — | — | — | — |
-| Reuters | — | — | — | — |
-| Vice | — | — | — | — |
-| The New York Times | — | — | — | — |
-| Politico | — | — | — | — |
-| The Hill | — | — | — | — |
-| The Economist | — | — | — | — |
-| People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| BuzzFeed News | — | 0.70 | 0.72 | 0.71 |
+| Fox News | — | 0.90 | 0.91 | 0.91 |
+| CNN | — | 0.83 | 0.85 | 0.84 |
+| Reuters | — | 0.95 | 0.94 | 0.94 |
+| Vice | — | 0.86 | 0.80 | 0.83 |
+| The New York Times | — | 0.89 | 0.86 | 0.87 |
+| Politico | — | 0.76 | 0.75 | 0.75 |
+| The Hill | — | 0.91 | 0.88 | 0.90 |
+| The Economist | — | 0.88 | 0.99 | 0.93 |
+| People | — | 0.92 | 0.89 | 0.90 |
+| **Top‑Line** | — | 0.8593 | 0.8586 | 0.8584 |
 
 ## 2.2 Feed‑Forward Neural Network (FFNN)
 | Publication		| Accuracy | Precision | Recall | F1 |
@@ -150,42 +150,28 @@ Every model‑variant gets its own subsection containing:
 ---
 
 # 3  Rule‑Based Approach ✍️ (Editorial Style Guide Rules)
-| Publication 		| Accuracy | Precision | Recall | F1  |
-|-------------------|----------|-----------|--------|-----|
-| BuzzFeed News 	| — 	   | 0.00	   | 0 		| 0   |
-| Fox News 			| — 	   | 0.00	   | 0		| 0   |
-| CNN 				| — 	   | 0.00	   | 0 		| 0   |
-| Reuters 			| — 	   | 0.00	   | 0 		| 0   |
-| Vice 				| — 	   | 0.30	   | 0.37 	| 0.33|
-| The New York Times| -		   | 0.63	   | 0.59 	| 0.61|
-| Politico 			| — 	   | 0.31	   | 0.46	| 0.37|
-| The Hill			| — 	   | 0.35 	   | 0.56 	| 0.43|
-| The Economist 	| — 	   | 0.47 	   | 0.17	| 0.25|
-| People			| — 	   | 0.16	   | 0.71 	| 0.26|
-| **Top‑Line** 		| 0.29 	   | 0.22 	   | 0.29 	| 0.23|
-
----
-
-# 4  Large Language Model (LLM) ⚡
-## 4.1 Mistral‑7B (0‑shot, system prompt = *“Predict publisher”*)
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
-| BuzzFeed News | — | — | — | — |
-| Fox News | — | — | — | — |
-| CNN | — | — | — | — |
-| Reuters | — | — | — | — |
-| Vice | — | — | — | — |
-| The New York Times | — | — | — | — |
-| Politico | — | — | — | — |
-| The Hill | — | — | — | — |
-| The Economist | — | — | — | — |
-| People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| BuzzFeed News | — | 0.00 | 0.00 | 0.00 |
+| Fox News | — | 0.00 | 0.00 | 0.00 |
+| CNN | — | 0.00 | 0.00 | 0.00 |
+| Reuters | — | 0.00 | 0.00 | 0.00 |
+| Vice | — | 0.30 | 0.37 | 0.33 |
+| The New York Times | — | 0.63 | 0.59 | 0.61 |
+| Politico | — | 0.31 | 0.46 | 0.37 |
+| The Hill | — | 0.35 | 0.56 | 0.43 |
+| The Economist | — | 0.47 | 0.17 | 0.25 |
+| People | — | 0.16 | 0.71 | 0.26 |
+| **Top‑Line** | — | 0.22 | 0.29 | 0.23 |
+
 
 ---
 
 # 5  Transformer‑Based Encoders 🦾
-## 5.1 BERT (Base, uncased) + [CLS] Logistic Head
+## 5.1 BERT (Base, uncased)
+
+> **Note:** We were only able to obtain the top-line accuracy of **0.94** before being kicked off Colab. We hope to retrain and collect full per-class metrics before final submission.
+
 | Publication | Accuracy | Precision | Recall | F1 |
 |-------------|----------|-----------|--------|----|
 | BuzzFeed News | — | — | — | — |
@@ -198,11 +184,7 @@ Every model‑variant gets its own subsection containing:
 | The Hill | — | — | — | — |
 | The Economist | — | — | — | — |
 | People | — | — | — | — |
-| **Top‑Line** | — | — | — | — |
+| **Top‑Line** | — |  — | — | — |
+|  | **0.94** |  — | — | — |
 
----
-
-## 📌 Next Steps
-1. **Run** an experiment.  
-2. **Replace** the `—` placeholders with real numbers (keep three decimals).  
-3. **Add** notes under the table if hyper‑parameters or tricks are critical.  
+  

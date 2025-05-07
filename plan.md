@@ -80,17 +80,6 @@
 
 ---
 
-## LLM One-Shot Classification (Exploratory)
-
-### Pipeline:
-- **Data** → **Prompt Template** → **OpenAI GPT-4 (or similar) API call with 1-shot example**
-
-### Notes:
-- Not a fair baseline; used for qualitative insights.
-- Results interpreted cautiously due to possible training overlap.
-
----
-
 ## Error Analysis
 - Identify common misclassification patterns.
 - Investigate confusion between specific publication pairs (e.g., CNN vs. NYT).
